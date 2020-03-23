@@ -13,9 +13,11 @@ Design Patterns - Elements of Reusable Object-Oriented Software（中文译名�
 3.2变量的声明类型尽量是接口或者是抽象类。
 3.3任何类都不应该从具体类派生。
 3.4使用继承时尽量遵循里氏替换原则。
-4、接口隔离原则（Interface Segregation Principle）
+4、单一职责原则（Single Responsibility Principle，SRP）
+单一职责原则规定一个类应该有且仅有一个引起它变化的原因，否则类应该被拆分
+5、接口隔离原则（Interface Segregation Principle）
 这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。它还有另外一个意思是：降低类之间的耦合度。由此可见，其实设计模式就是从大型软件架构出发、便于升级和维护的软件设计思想，它强调降低依赖，降低耦合。
-5、迪米特法则，又称最少知道原则（Demeter Principle）
+6、迪米特法则，又称最少知道原则（Demeter Principle）
 最少知道原则是指：一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。
-6、合成复用原则（Composite Reuse Principle）
+7、合成复用原则（Composite Reuse Principle）
 合成复用原则是指：尽量使用合成/聚合的方式，而不是使用继承。
