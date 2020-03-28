@@ -1,6 +1,6 @@
 package design.pattern.factory.abstractFactory;
 
-public class Demo {
+public class TestAbstractFactory {
     public static void main(String[] arg) {
         AbstractFactory miFactory = new XiaoMiFactory();
         AbstractFactory appleFactory = new AppleFactory();

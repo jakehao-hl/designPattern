@@ -1,6 +1,6 @@
 package design.pattern.factory.factoryMethod;
 
-public class Demo {
+public class TestFactoryMethod {
     public static void main(String[] arg) {
         AbstractFactory miFactory = new XiaoMiFactory();
         AbstractFactory appleFactory = new AppleFactory();
